@@ -1,0 +1,104 @@
+header {
+  background-image: url("ban23.PNG");
+}
+
+h1 {
+  line-height: 300%;
+  font-size: 3.5em;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Century Gothic', serif;
+  color: #eef7f7;
+  text-shadow: 2px 2px 10px rgb(1, 11, 14);
+}
+
+#navi a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+  font-size: 1.25em;
+  color: #caf0f0;
+}
+
+#navi ul li{
+  display: inline-block;
+}
+
+#navi ul{
+  display : flex;
+  justify-content:space-around;
+  background-color:#15799D;
+  padding-right: 200px;
+  padding-left: 200px;
+  list-style: none;
+}
+
+body{
+  margin: 1%;
+  background-color: #caf0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  width: 80%;
+  box-shadow: 5px 5px 40px #aaa;
+  margin: auto;
+  overflow: auto;
+}
+
+#imagelist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+#imagelist li {
+  width: 25%;
+}
+
+#imagelist img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#image {
+  width: 100%;
+
+}
+
+footer{
+  background-color: #15799D;
+  color: #ffffff;
+}
+
+#flex_container {
+  display : flex;
+  flex-wrap : wrap; 
+}
+
+.item{
+  display: block;
+  flex-grow : 1;
+  padding-left: 2%;
+}
+
+#copyright {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 100%;
+  font-size: 10px;
+}
+
+footer h4{
+ padding-bottom: 10px;
+}

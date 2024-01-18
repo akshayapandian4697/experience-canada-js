@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experience Canada</title>
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="booking.js"></script>
+</head>
+
+<body>
+    <div id="pagecontainer">
+
+        <header>
+            <h1>Experience Canada</h1>
+        </header>
+        <nav id = "navi">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="SeasonalTrips.html">Seasonal Trips</a></li>
+                <li><a href="ThingsToDo.html">Things to Do</a></li>
+                <li><a href="DiscoverYourNew.html">Discover Your New</a></li>
+                <li><a href="Booking.html">Booking</a></li>
+                
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Escape. Explore. Experience.<br>
+                Your pocket friendly planner - Packages you cannot deny - For the wanderlust in you - Travel without worries.<br>
+                Perfect time of an adventure! Your dream destination awaits! Book now to reserve your rooms.<br>
+            </h2>
+            <div id ="form_container">
+                <form action="response.html" method="get" name="reservation_form" id="reservation_form">
+                    
+                    <label for="salutation">Select a salutation:</label>
+                      <select name="salutation" id="salutation">
+                        <option value="">Select the salutation</option>
+                        <option value="1">Mr.</option>
+                        <option value="2">Miss.</option>
+                        <option value="3">Mrs.</option>
+                        <option value="4">Dr.</option>
+                        <option value="5">Prof.</option>
+                      </select>
+                    <span></span><br>
+
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="First Name">
+                    <span>*</span><br>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+                    <span>*</span><br>
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Email address">
+                    <span>*</span><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX">
+                    <span>*</span><br>
+
+                    <label for="date">Check-in:</label>
+                    <input type="text" id = "from_date" name="from_date" placeholder="From Date">
+                    <span>*</span><br>
+                    <label for="date">Check-out:</label>
+                    <input type="text" id = "to_date" name="to_date" placeholder="To Date">
+                    <span>*</span><br>
+                   
+                    <label for="adult">Adults:</label>
+                    <input type="number" id="adults" name="adults" placeholder="0">
+                    <span>*</span><br>
+                    <label for="children">Children:</label>
+                    <input type="number" id="children" name="children" placeholder="0">
+                    <span>*</span><br>
+
+                    <label for="food">Food Services:</label>
+                    <div>
+                        <input type="checkbox" name="food" value="Breakfask"> <label for="Breakfask">Breakfask</label>
+                        <input type="checkbox" name="food" value="Lunch"> <label for="Lunch">Lunch</label>
+                        <input type="checkbox" name="food" value="Dinner"> <label for="Dinner">Dinner</label>
+                    </div>
+                    <span></span><br>
+
+                    <label for="beds">Bed Preferences:</label>
+                    <select id="beds" name="beds" required>
+                        <option value="">Select the bed preference</option>
+                        <option value="1">King</option>
+                        <option value="2">Queen</option>
+                        <option value="3">Twin</option>
+                    </select>
+                    <span></span><br>
+                    
+                    <label for="submit"></label>
+                    <input type="submit" value="Submit Request">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div id="flex_container">
+            <div class="item">
+                <h4>Open Hours</h4>
+                <ul>
+                    <li>Monday - Friday - 9.00 AM - 07.00PM </li>
+                    <li>Saturday - 10.00 AM - 06.00PM </li>
+                    <li>Sunday - Closed </li>
+                </ul>
+            </div>
+    
+            <div class="item">
+                <h4>Contact us</h4>
+                <p>
+                    Experience Canada
+                    Highway Street,
+                    Kitchenr, Ontario </p>
+                    Email address - experiencecanada@gmail.com
+            </div>
+    
+            <div class="item">
+                <h4>Branches</h4>
+                <ul>
+                    <li>Waterloo </li>
+                    <li>Cambridge </li>
+                    <li>Mississauga</li>
+                </ul>
+            </div>
+    
+            <p id="copyright">
+                Copyright &copy; Experience Canada, Canada
+            </p>
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+
+</html>

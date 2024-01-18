@@ -1,0 +1,129 @@
+header {
+  background-image: url("ban23.PNG");
+}
+
+h1 {
+  line-height: 300%;
+  font-size: 3.5em;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Century Gothic', serif;
+  color: #eef7f7;
+  text-shadow: 2px 2px 10px rgb(1, 11, 14);
+}
+
+#navi a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+  font-size: 1.25em;
+  color: #caf0f0;
+}
+
+#navi ul li{
+  display: inline-block;
+}
+
+#navi ul{
+  display : flex;
+  justify-content:space-around;
+  background-color:#15799D;
+  padding-right: 200px;
+  padding-left: 200px;
+  list-style: none;
+}
+
+body{
+  margin: 1%;
+  background-color: #caf0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+main{
+  margin-left: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+
+  /* popular cities */
+  .container{
+   max-width: 1200px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+    
+  }
+  .container img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    height: auto;
+  }
+  .figcaption{
+    margin: auto;
+  }
+  
+  
+footer{
+  background-color: #15799D;
+  color: #ffffff;
+}
+
+#flex_container {
+  display : flex;
+  flex-wrap : wrap; 
+}
+
+.item{
+  display: block;
+  flex-grow : 1;
+  padding-left: 2%;
+}
+
+#copyright {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 100%;
+  font-size: 10px;
+}
+
+footer h4{
+ padding-bottom: 10px;
+}
+
+.label{
+    visibility: hidden;
+}
+
+/* rating slider start here */
+.slider{
+    width:25%;
+    align-items: center;
+
+}
+.slider-range-max{
+    width: 25%;
+}
+
+/* dialog */
+#dialog{
+    background-color: #048b89;
+    color: #ebf3ee;
+}
+
+
